@@ -15,7 +15,7 @@ class _allitemsState extends State<allitems> {
       body: Column(
         children: [
           Container(
-            margin: const EdgeInsets.fromLTRB(10, 30, 300, 0),
+            margin: const EdgeInsets.fromLTRB(10, 5, 300, 0),
             child: const Text(
               'For You',
               style: TextStyle(

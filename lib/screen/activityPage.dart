@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:grab/components/icons.dart';
 
 class ActivityPage extends StatefulWidget {
-  const ActivityPage({super.key});
+  ActivityPage({super.key});
 
   @override
   State<ActivityPage> createState() => _ActivityPageState();
@@ -11,8 +11,8 @@ class ActivityPage extends StatefulWidget {
 class _ActivityPageState extends State<ActivityPage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Column(
+    return Scaffold(
+      body: Column(
         children: [
           Row(
             children: [
@@ -115,6 +115,10 @@ GrabUnlimtied plan
                               fontSize: 20),
                         ),
                       ),
+                      const Divider(
+                        color: Colors.white,
+                        height: 20,
+                      ),
                       Row(
                         children: [
                           Container(
@@ -140,7 +144,8 @@ GrabUnlimtied plan
                 ),
               ),
               Container(
-                margin: const EdgeInsets.only(top: 20, left: 15, right: 10),
+                margin: const EdgeInsets.only(
+                    top: 30, left: 15, right: 15), // Adjust margin as needed
                 child: Card(
                   shape: const RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(15))),
@@ -170,6 +175,12 @@ GrabUnlimtied plan
                               fontWeight: FontWeight.bold,
                               fontSize: 10),
                         ),
+                      ),
+                      Divider(
+                        color: Colors
+                            .black, // Change the color to black or something visible
+                        thickness: 2,
+                        height: 10,
                       ),
                       Row(
                         children: [
@@ -201,6 +212,51 @@ GrabUnlimtied plan
                 ),
               ),
             ]),
+          ),
+          Container(
+            margin: const EdgeInsets.only(top: 30, right: 300),
+            child: const Text(
+              'Recent',
+              style: TextStyle(
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20),
+            ),
+          ),
+          Row(
+            children: [
+              Container(
+                margin: const EdgeInsets.only(top: 25, left: 20),
+                child: Card(
+                  shape: const RoundedRectangleBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(20)),
+                  ),
+                  color: const Color.fromARGB(255, 230, 245, 238),
+                  child: Container(
+                    margin: const EdgeInsets.all(5),
+                    child: const Icon(
+                      Icons.replay_outlined,
+                      color: Colors.black,
+                      size: 20,
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                margin: const EdgeInsets.only(top: 25, left: 20),
+                child: const Text(
+                  'Subscription',
+                  style: TextStyle(color: Colors.black, fontSize: 17.5),
+                ),
+              ),
+              Container(
+                margin: const EdgeInsets.only(top: 25, left: 150),
+                child: const Text(
+                  'RM 4.20',
+                  style: TextStyle(color: Colors.black, fontSize: 17.5),
+                ),
+              )
+            ],
           )
         ],
       ),

@@ -33,7 +33,7 @@ class _NavigationBarState extends State<NavigationBar> {
   Widget build(BuildContext context) {
     final List<Widget> _screens = [
       const HomePage(),
-      const ActivityPage(),
+      ActivityPage(),
       const financePage(),
       const messagesPage(),
       const AccpuntPage(),
