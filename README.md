@@ -14,10 +14,17 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-![7](https://github.com/Magadzx27/Grab/assets/49675864/05e5052e-b68a-454d-bee6-40faa5297abb)
-![6](https://github.com/Magadzx27/Grab/assets/49675864/e5442f03-0d87-4d89-b736-dc338e2da7d7)
-![5](https://github.com/Magadzx27/Grab/assets/49675864/83cbd9c5-95a3-4148-a201-89b07e429e8f)
-![4](https://github.com/Magadzx27/Grab/assets/49675864/b2951ac2-d48f-43a9-8d3a-91b9225db4c4)
-![3](https://github.com/Magadzx27/Grab/assets/49675864/1685a221-0078-4a2d-a20d-823c0387660d)
-![2](https://github.com/Magadzx27/Grab/assets/49675864/10d860ee-e5ee-4936-baa4-fa471e977fbb)
 ![1](https://github.com/Magadzx27/Grab/assets/49675864/878b623f-5f4a-4303-9533-37afbcb900f2)
+
+![2](https://github.com/Magadzx27/Grab/assets/49675864/957ff339-645d-4d27-a414-0058cd8d94c8)
+
+![3](https://github.com/Magadzx27/Grab/assets/49675864/fa3f55d0-6d0e-411b-89db-0fe4f504a9ea)
+
+![4](https://github.com/Magadzx27/Grab/assets/49675864/5a312bb7-0dfd-41e0-8b0f-38fd39b80abd)
+
+![5](https://github.com/Magadzx27/Grab/assets/49675864/59c30c6c-cd22-446c-b4ae-b2bd1965c585)
+
+![6](https://github.com/Magadzx27/Grab/assets/49675864/95e246a0-7185-4925-b920-ccd1c0c4f539)
+
+![7](https://github.com/Magadzx27/Grab/assets/49675864/3b08d3dd-abb4-4b32-8827-dcc859e5896b)
+
